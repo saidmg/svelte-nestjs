@@ -1,10 +1,10 @@
-import App from './App.svelte';
+import MapResult from './map/MapResult.svelte';
 
-const app = new App({
+const app = new MapResult({
 	target: document.body,
-	props: {
-		name: 'world'
-	}
+	// props: {
+	// 	name: 'world'
+	// }
 });
 
 export default app;

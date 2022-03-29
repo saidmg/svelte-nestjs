@@ -13,13 +13,17 @@
     "server:dev": "nest start --watch"
   },
   "dependencies": {
-    "sirv-cli": "^2.0.0",
     "@nestjs/common": "^8.0.0",
     "@nestjs/core": "^8.0.0",
     "@nestjs/platform-express": "^8.0.0",
+    "d3-scale": "^4.0.2",
+    "d3-scale-chromatic": "^3.0.0",
+    "just-flush": "^2.1.0",
+    "leaflet": "^1.7.1",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
-    "rxjs": "^7.2.0"
+    "rxjs": "^7.2.0",
+    "sirv-cli": "^2.0.0"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
