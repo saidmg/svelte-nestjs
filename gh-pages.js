@@ -3,7 +3,7 @@ var ghpages = require('gh-pages');
 ghpages.publish(
     'public', // path to public directory
     {
-        branch: 'gh-pages',
+        branch: 'master',
         repo: 'https://github.com/saidmg/svelte-nestjs.git', // Update to point to your repository  
         user: {
             name: 'Said Mghabghab', // update to use your name
