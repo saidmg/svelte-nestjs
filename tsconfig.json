@@ -1,21 +1,12 @@
 {
+  "extends": "@tsconfig/svelte/tsconfig.json",
+
+  "include": ["src/**/**/*"],
+  "exclude": ["node_modules/*", "__sapper__/*", "public/*"],
+  //added theses to get rid of the warnings from ts , not sure if i should keep them yet
   "compilerOptions": {
-    "module": "commonjs",
-    "declaration": true,
-    "removeComments": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "allowSyntheticDefaultImports": true,
-    "target": "es2017",
-    "sourceMap": true,
-    "outDir": "./dist",
-    "baseUrl": "./",
-    "incremental": true,
-    "skipLibCheck": true,
-    "strictNullChecks": false,
-    "noImplicitAny": false,
-    "strictBindCallApply": false,
-    "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "importsNotUsedAsValues": "remove",
+    "isolatedModules": false,
+    "experimentalDecorators":true
   }
 }

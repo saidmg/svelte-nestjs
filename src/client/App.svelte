@@ -1,13 +1,16 @@
-<script>
-	export let name;
+<script lang="ts">
+	// export let name: string;
+import MapResult from './map/MapResult.svelte';
+
 </script>
 
-<main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-</main>
+<!-- <div> -->
+	<MapResult/>
+	<!-- <h1>Hello {name}!</h1> -->
+	<!-- <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p> -->
+<!-- </div> -->
 
-<style>
+<!-- <style>
 	main {
 		text-align: center;
 		padding: 1em;
@@ -27,4 +30,4 @@
 			max-width: none;
 		}
 	}
-</style>
+</style> -->
