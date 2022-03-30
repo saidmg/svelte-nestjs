@@ -19,6 +19,7 @@
     "@nestjs/platform-express": "^8.0.0",
     "d3-scale": "^4.0.2",
     "d3-scale-chromatic": "^3.0.0",
+    "gh-pages": "^3.2.3",
     "just-flush": "^2.1.0",
     "leaflet": "^1.7.1",
     "reflect-metadata": "^0.1.13",
